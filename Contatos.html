@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <meta name="description" content="">
+
+    <title>Contatos</title>
+    <!-- Iniciando o codigo principal e definindo os estilos -->
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .navbar-brand {
+            color: #17a2b8;
+            text-decoration: none;
+            font-size: 1.25rem;
+            flex: 1;
+            text-align: center;
+        }
+        .navbar-toggler {
+            display: none;
+        }
+        .navbar-collapse {
+            display: flex;
+            justify-content: center;
+            flex: 2;
+        }
+        .navbar-nav {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-item {
+            display: inline;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .form6 {
+            margin-top: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .mbr-section-head {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+        .form-group {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .mbr-section-btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .mbr-section-btn button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #28a745;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contacts2 {
+            padding: 20px;
+        }
+        .contacts-card {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contacts-card .card-wrapper {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contacts-card .image-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- Nav Bar -->
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand text-info" href="#">Atividade Prática RU: 4278626</a>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link text-primary" href="index.html">Sobre mim</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="Projetos.html">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="Formações.html">Formação</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="Contatos.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Criação do formulario -->
+<section class="form6 cid-udOb6BKAFp" id="form6-a">
+    <div class="container">
+        <div class="mbr-section-head">
+            <h2 class="mbr-section-title mb-0 display-2"><strong>Informe seu contato</strong></h2>
+        </div>
+        <div class="form-container">
+            <form action="" method="POST" class="mbr-form form-with-styler">
+                <input type="hidden" name="email" value="">
+                <div class="row">
+                    <div class="alert alert-success col-12" hidden>Obrigado :)</div>
+                    <div class="alert alert-danger col-12" hidden>Oops...! algum problem!</div>
+                </div>
+                <div class="dragArea row">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Nome" class="form-control" id="name-form6-a">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" class="form-control" id="email-form6-a">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Telefone" class="form-control" id="phone-form6-a">
+                    </div>
+                    <div class="mbr-section-btn">
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Criação da descrição do meu contato -->
+<section class="contacts2 cid-udO8C17Xmq" id="contacts2-8">
+    <div class="container">
+        <div class="mbr-section-head">
+            <h2 class="mbr-section-title mb-0 display-2"><strong>Meus contatos</strong></h2>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="card col-12 col-md-6 contacts-card">
+                <div class="card-wrapper">
+                    <div class="image-wrapper">
+                        <span class="mbr-iconfont mobi-mbri-phone mobi-mbri"></span>
+                    </div>
+                    <div class="text-wrapper">
+                        <h6 class="card-title mb-1 display-5"><strong>Celular</strong></h6>
+                        <p class="mbr-text display-7">83 986700475</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 contacts-card">
+                <div class="card-wrapper">
+                    <div class="image-wrapper">
+                        <span class="mbr-iconfont mobi-mbri-letter mobi-mbri"></span>
+                    </div>
+                    <div class="text-wrapper">
+                        <h6 class="card-title mb-1 display-5"><strong>Email</strong></h6>
+                        <p class="mbr-text display-7">davi.britodeveloper@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
